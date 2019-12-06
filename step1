@@ -1,1 +1,11 @@
 #include<stdio.h>
+int main() {
+  int a=10, b=12, c=18, d;
+  d=sum(a,b,c); //??
+  return 0;
+}
+int sum(int x,int y,int z) {
+  int k;
+  k = x + y + z;
+  return k;
+}
